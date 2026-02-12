@@ -1,17 +1,1 @@
-funny.py
-import random
-import time
-
-messages = [
-    "Pushing code like a pro 🚀",
-    "This commit fixes everything. Probably.",
-    "It works on my machine 😎",
-    "Adding more bugs for character development 🐛",
-    "Deploying confidence, not code 💪"
-]
-
-print("Initializing super serious developer mode...")
-time.sleep(1)
-
-print(random.choice(messages))
-print("Push complete. World saved. 🌍")
+print([x**2 for x in range(10)])
